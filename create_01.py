@@ -67,7 +67,7 @@ def decode(listin,code):   #shifts numbers back using code
     return fix
 
 def writetxt(name,contents):#write text file
-    new=open("name",'w+')
+    new=open(name,'w+')
     new.write(contents)
     new.close()
 
@@ -139,3 +139,4 @@ if opcode==3:
         rank.append(listrank(words,item))
     loc=rank.find(max(rank))
     print(poss[loc])
+
